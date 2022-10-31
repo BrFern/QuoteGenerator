@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Ringbearer";
+    src: url("https://www.fontspace.com/ringbearer-font-f2246");
+}
+body {
+    background-color: lightgrey;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: inline-flexbox;
+    flex-direction: column; 
+}
+button {
+    color: darkgreen;
+    margin: 2px;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin: 3rem 0px;
+}
+.center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align:center;
+    text-underline-offset: center;
+}
+
+img {
+align-content: center;
+}
+
+#Hobbits {
+   color: green;
+}
+ #HobbitsDiv {
+    position: relative;
+    bottom: 0px;
+    background-color: lightseagreen;
+    display: grid;
+    text-overflow: wrap;
+   
+ }
+#Humans {
+    color: brown;
+}
+#HumansDiv {
+    position: relative;
+    bottom: 0px;
+    background-color: blanchedalmond;
+    text-overflow: wrap;
+ }
+#Elves {
+    color: silver;
+}
+
+#ElvesDiv {
+    position: relative;
+    bottom: 0px;
+    background-color: lightgoldenrodyellow;
+    text-overflow: wrap;
+ }
+#Dwarves {
+    color: aquamarine;
+}
+#DwarvesDiv {
+    position: relative;
+    bottom: 0px;
+    background-color: silver;
+    text-overflow: wrap;
+ }
+#WizardsDiv {
+        position: relative;
+        bottom: 0px; 
+        background-color: whitesmoke; 
+        text-overflow: wrap;
+}
+#Wizards {
+    color: grey;
+}
+
+#form{
+    margin:auto;
+    background-color: lightslategray;
+    text-align: center;
+}
+

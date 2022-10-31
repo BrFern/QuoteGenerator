@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.fontspace.com/ringbearer-font-f2246">
+    <link rel="stylesheet" href="CSS\QuoteGenerator.css">
+    
+    <title>LOTR Quote Generator</title>
+</head>
+<body>
+    <h1> Which LOTR race said this?</h1>
+    <div id="button">
+    <p> <button id="QuoteGenerator" class="center"></button> </p>
+     </div>
+    <div id="HobbitsDiv">
+    <h3 id="Hobbits"> Hobbits </h3>
+    <img id= "hobbit picture" src="https://cdn.britannica.com/34/201734-050-2B1ECD3E/Dominic-Monaghan-Merry-scene-Elijah-Wood-Frodo.jpg"
+    style="width:200px; height:100px; margin-left: 50%; margin-right: 50%;">
+    <ul id="Hobbits quotes">
+        <li> "Potatoes! Boil 'em, mash 'em, stick 'em in a stew."</li>
+        <li> “It’s the job that’s never started as takes longest to finish.”</li>
+        <li> “Not all those who wander are lost.” </li>
+        <li> “It is useless to meet revenge with revenge: it will heal nothing.”</li>
+        <li> "Great! Where are we going?"</li>
+    </ul>
+</div>
+<div id="HumansDiv">
+    <h3 id="Humans"> Humans </h3>
+    <img id="human picture" src="https://miro.medium.com/max/1200/1*StSr7zNFtgBIsyCcQHEzVQ.jpeg" style= "width:200px; height:100px; margin-left: 50%; margin-right: 50%;">
+    <ul id="Human quotes">
+        <li>"In this hour, I do not believe that any darkness will endure."</li>
+        <li> "It is a strange fate that we should suffer so much fear and doubt over so small a thing … such a little thing."</li>
+        <li>“The world is full enough of hurts and mischances without wars to multiply them.”</li>
+        <li>“This day does not belong to one but to all. Let us together rebuild this world that we may share in the days of peace.” </li>
+        <li>"War will make corpses of us all." </li>
+    </ul>
+</div>
+<div id="ElvesDiv">
+    <h3 id="Elves"> Elves</h3>
+    <img id="elf picture" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/02/Lordoftherings-Elves-profile.jpg" style= "width:200px; height:100px; margin-left: 40%; margin-right: 50%;">
+    <ul id="Elf quotes">
+        <li>"May it be a light to you in dark places, when all other lights go out."</li>
+        <li> “I would rather share one lifetime with you than face all the ages of this world alone.”</li>
+        <li>"The wide world is all about you: you can fence yourselves in, but you cannot forever fence it out."</li>
+        <li>"All shall love me and despair!"</li>
+        <li>“You may learn something, and whether what you see be fair or evil, that may be profitable, and yet it may not. Seeing is both good and perilous.”</li>
+    </ul>
+</div>
+<div id="DwarvesDiv">
+    <h3 id="Dwarves"> Dwarves </h3>
+    <img id = "dwarf picture" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Dwarves_at_the_Council_of_Elrond_%28Jackson_LOTR%29.jpg/260px-Dwarves_at_the_Council_of_Elrond_%28Jackson_LOTR%29.jpg" 
+    style= "width:200px; height:100px; margin-left: 50%; margin-right: 50%;">
+    <ul id="Dwarf quotes">
+        <li>“You are the luckiest, the canniest, and the most reckless man I ever knew.”</li>
+        <li>"You'll find more cheer in a graveyard."</li>
+        <li>"That still only counts as one!"</li>
+        <li>"If anyone was to ask for my opinion, which I note they’re not…</li>
+        <li>"Certainty of death? Small chance of success? What are we waiting for?</li>
+    </ul>
+</div>
+<div id ="WizardsDiv">
+    <h3 id="Wizards"> Wizards</h3>
+    <img id="wizard picture" src="https://cdn.vox-cdn.com/thumbor/qVQyAhXnaJ83xYFgOCZk9HZGCsw=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22325897/lotr1_movie_screencaps.com_5452.jpg"
+    style="width:200px; height:100px; margin-left: 50%; margin-right: 50%;">
+    <ul id = "Wizard quotes">
+        <li>"All we have to decide is what to do with the time that is given us."</li>
+        <li>"When in doubt, follow your nose."</li>
+        <li>"The old world will burn in the fires of industry. The forests will fall. A new order will rise.</li>
+        <li>"Do not be so quick to deal out death and judgment. Even the very wise do not see all ends." </li> 
+    </ul>
+</div>
+<div id="form">
+   <form>
+     <input type="radio" id="hobbitrad" name="hobbitrad" value="Hobbits">
+     <label for="hobbitrad"> Hobbits </label>
+     <input type="radio" id="humanrad" name="humanrad" value="Humans">
+     <label for="humanrad"> Humans </label>
+     <input type="radio" id="" name="" value="">
+     <label for="elvesrad">Elves</label>
+     <input type="radio" id="" name="" value="">
+     <label for = "dwarvesrad">Hobbits</label>
+     <input type="radio" id="" name="" value="">
+     <label for="wizardsrad"> Wizards</label>
+   </form>
+</div>
+<script src="JS\QuoteGenerator.js"></script>
+</body>
+</html>
